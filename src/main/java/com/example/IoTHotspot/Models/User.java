@@ -19,7 +19,7 @@ public class User {
     private String token;
 
     public User() {
-        // TODO Auto-generated constructor stub
+        //
     }
 
     public User(Long id, String name, String email, String password, String confirm_password, String token) {
@@ -36,8 +36,8 @@ public class User {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setId(long l) {
+        this.id = l;
     }
 
     public String getName() {

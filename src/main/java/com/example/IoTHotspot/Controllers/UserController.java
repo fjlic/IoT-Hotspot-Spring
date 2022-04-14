@@ -11,7 +11,7 @@ public class UserController {
     @RequestMapping(value = "index")
     public User index() {
         User user = new User();
-        user.setId(10);
+        user.setId((long) 10);
         user.setName("User Test");
         user.setEmail("test@domain.com");
         user.setPassword("abc123");
@@ -23,7 +23,7 @@ public class UserController {
     @RequestMapping(value = "create")
     public User create() {
         User user = new User();
-        user.setId(10);
+        user.setId((long)10);
         user.setName("User Test");
         user.setEmail("test@domain.com");
         user.setPassword("abc123");
